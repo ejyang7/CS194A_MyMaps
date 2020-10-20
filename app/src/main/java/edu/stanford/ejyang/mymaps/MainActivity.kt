@@ -1,23 +1,35 @@
 package edu.stanford.ejyang.mymaps
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import edu.stanford.ejyang.mymaps.models.Place
 import edu.stanford.ejyang.mymaps.models.UserMap
 import kotlinx.android.synthetic.main.activity_main.*
 
+private const val TAG = "MainActivity"
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         val userMaps = generateSampleData()
         //Set layout manager on the recycler view
         rvMaps.layoutManager = LinearLayoutManager(this)
         //Set adapter on the recycler view
-        rvMaps.adapter = MapsAdapter(this, userMaps)
+        rvMaps.adapter = MapsAdapter(this, userMaps, object: MapsAdapter.OnClickListener{
+            override fun onItemClick(position: Int) {
+                Log.i(TAG, "onItemClick $position")
+                //When user taps on view in RV, nagivate to new activity
+                val intent = Intent(this@MainActivity, DisplayMapActivity::class.java)
+                startActivity(intent)
+            }
+
+        })
+
+
     }
 
     private fun generateSampleData(): List<UserMap> {
