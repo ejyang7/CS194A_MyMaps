@@ -7,6 +7,7 @@
     android:background="?attr/selectableItemBackground"
     android:padding="10dp"
     android:textSize="24sp"
+    android:textColor="#FFFFFF"
     tools:text="Singapore Itinerary!">
-
 </TextView>
+
