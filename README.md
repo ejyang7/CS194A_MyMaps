@@ -25,11 +25,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://media.giphy.com/media/mxp9GI3riMKA0ZC86G/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with gifs.com
+GIF created with giphy.com
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Some challenges I had with building this app were becoming acquainted with the RecyclerView functions and figuring out how all the different views and activities connected with each other in the code.
 
 ## License
 
