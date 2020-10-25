@@ -17,12 +17,13 @@ The following **required** functionality is completed:
 The following **extensions** are implemented:
 
 * [X] Changed color scheme of the main page (font and background colors)
+* [X] When user is creating a new map, the starting area of the map is at New York
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://gifs.com/gif/cs194a-mymaps-demo-YWG3k0' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
