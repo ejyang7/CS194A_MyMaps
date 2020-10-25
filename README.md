@@ -23,7 +23,7 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://giphy.com/gifs/mxp9GI3riMKA0ZC86G/html5' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/mxp9GI3riMKA0ZC86G/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with gifs.com
 
