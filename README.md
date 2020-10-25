@@ -23,7 +23,7 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://j.gifs.com/YWG3k0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://gifs.com/gif/updated-cs194a-mymaps-demo-6X5Or7' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with gifs.com
 
